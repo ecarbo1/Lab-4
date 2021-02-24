@@ -23,5 +23,59 @@
 					</div>
 					<div>
 						<label>Gender:</label>
-							<label for= "male">Male:</label><input type= "radio" name= "gender_area" value= "Male" id= 
-						
+							<label for= "male">Male:</label><input type= "radio" name= "gender_area" value= "Male" id= "male">
+							<label for= "female">Female:</label><input type= "radio" name= "gender_area" value= "Female" id= "female">
+					</div>
+					<div>
+						<label>Age:</label>
+						<select name= "age_area">
+							<option value= "under 18">Under 18</option>
+							<option value= "18-24">18-24</option>
+							<option value="25-34">25-34</option>
+							<option value="35-44">35-44</option>
+							<option value="45-54">45-54</option>
+							<option value="55-64">55-64</option>
+							<option value="65 and over">65 and over</option>
+						</select>
+					</div>
+					</fieldset>
+					<fieldset>
+						<legend><strong>My Availability</strong></legend>
+							<div>
+								<label>Days Available:</label>
+							</div>
+							<div>
+								<input type= "checkbox" name="available_area[]" value= "Sunday"><label>Sunday</label>
+							</div>
+							<div>
+								<input type= "checkbox" name="available_area[]" value= "Monday"><label>Monday</label>
+							</div>
+							<div>
+								<input type= "checkbox" name="available_area[]" value= "Tuesday"><label>Tuesday</label>
+							</div>
+							<div>
+								<input type= "checkbox" name="available_area[]" value= "Wednesday"><label>Wednesday</label>
+							</div>
+							<div>
+								<input type= "checkbox" name="available_area[]" value= "Thursday"><label>Thursday</label>
+							</div>
+							<div>
+								<input type= "checkbox" name="available_area[]" value= "Friday"><label>Friday</label>
+							</div>
+							<div>
+								<input type= "checkbox" name="available_area[]" value= "Saturday"><label>Saturday</label>
+							</div>
+							<div>
+								<label>Any Comments></label>
+							</div>
+							<div>
+								<textarea cols = "30" rows= "10" name= "comments_area" placeholder= "Comment what ever you need to comment. Place comments here."></textarea>
+							</div>
+						</fieldset>
+						<div>
+							<input type= "submit" value= "Send Me">
+						</div>
+						<input type= "hidden" name= "hidden_area" value= "ecarbo">
+					</form>
+	</body>
+</html>
